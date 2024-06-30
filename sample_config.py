@@ -4,7 +4,7 @@ HEROKU = True  #
 if HEROKU:
     from os import environ
 
-    BOT_TOKEN = environ["Bot_token"]
+    BOT_TOKEN = environ["BOT_TOKEN"]
     ARQ_API_KEY = environ["ARQ_API_KEY"]
 
 # 
