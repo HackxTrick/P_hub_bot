@@ -27,7 +27,7 @@ arq = ARQ("https://thearq.tech", ARQ_API_KEY, session)
 pornhub = arq.pornhub
 phdl = arq.phdl
 
-app = Client("Tg_PHub_Bot", bot_token=Bot_token, api_id=6,
+app = Client("Tg_PHub_Bot", bot_token=BOT_TOKEN, api_id=6,
              api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e")
 print("\nBot Started!...\n")
 
@@ -71,7 +71,7 @@ To Search in PHub just simply Type something"""
 )
 async def repo(_, message):
     m= await message.reply_text(
-        text="""[Tg_PHub_Bot Repo](https://github.com/Devanagaraj/Tg_PHub_Bot) | [Support Group](https://t.me/PatheticProgrammers)""",
+        text="""[Owner ⚡](https://t.me/Ograscals) | [Support Group](https://t.me/https://t.me/Rascal_criminals)""",
         disable_web_page_preview=True
        )
 
